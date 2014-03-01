@@ -1,4 +1,4 @@
-![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Univac_I_at_CHM.agr.jpg/800px-Univac_I_at_CHM.agr.jpg)
+![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Analogue_modem_-_acoustic_coupler.jpg/800px-Analogue_modem_-_acoustic_coupler.jpg)
 
 tonecode
 ========

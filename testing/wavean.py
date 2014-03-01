@@ -26,19 +26,19 @@ h = len(y)
 
 
 
-
+zzz = 60
 
 tt = 0
 
-tt2 = 133
-for t in range(0,103):
+tt2 = zzz
+for t in range(0,55):
         EE = left[tt:tt2]
-        tt = tt + 100
-        tt2 = tt2 + 100
+        tt = tt + zzz
+        tt2 = tt2 + zzz
         lf, rf = np.fft.rfft(da), np.fft.rfft(EE)
-        if abs(rf[6]) > 2000000:
+        if abs(rf[2]) > 900000:
             print 0
-        if abs(rf[7]) > 2000000:
+        if abs(rf[3]) > 900000:
             print 1
         
 #print x,da
@@ -71,46 +71,6 @@ plt.plot(y, left)
 
 #np.savetxt("npout.txt", info)
 #np.savetxt("npout.bin", left)
-
-posleft = [0]
-B = [0]
-C = [0]
-D = [0]
-E = [0]
-t=0
-for t in range(0, 24960):
-    if left[t] > 0:
-        posleft.append(left[t])
-
-#print posleft
-BB = left[0:238]
-
-for t in range(0, 238):
-    if BB[t] > 0:
-        B.append(BB[t])
-
-CC = left[238:476]
-t=0
-for t in range(0, 238):
-    if CC[t] > 0:
-        C.append(CC[t])
-
-DD = left[476:714]
-t=0
-for t in range(0, 238):
-    if DD[t] > 0:
-        D.append(DD[t])
-
-EE = left[1968:2624]
-t=0
-for t in range(0, 656):
-    if EE[t] < -30000:
-        E.append(EE[t])
-
-BA = np.average(B)
-CA = np.average(C)
-DA = np.average(D)
-EA = np.average(E)
 
 #print BA
 #print CA

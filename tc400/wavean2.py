@@ -1,5 +1,5 @@
 #!/usr/bin/env python2.7
-#this is setup for 200 baud
+#this is setup for 400 baud
 import sys
 import os
 import wave

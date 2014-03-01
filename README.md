@@ -14,3 +14,12 @@ To Run
 
 
 ./demo.x asdfaafdsafsadfasdfasdfasdfasdfsadfasdfasfasdfasdfasdfasdfasfd
+
+
+
+
+Usage
+-----
+	$ ./demo.x putamessageherebutyouhavetopaditwithpppppppppppppppppppppppppppppppppppppp
+	
+Thats all.

@@ -25,3 +25,12 @@ Usage
 	$ ./demo.x shouldworkwithany100b'/'s
 	shouldworkwithany100b/s
 Thats all.
+
+
+
+
+
+User Log
+========
+
+200 baud is in testing however appears to be working fine, moving to 300

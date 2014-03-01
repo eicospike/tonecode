@@ -5,3 +5,4 @@ echo `./wavean2.py` |tr -d ' '|cut -c 4- | sed 's|..........|&\n|g'|sed 's|.| |8
 
 ./prepare.x wavedump.bin
 
+#need to fix the fft error

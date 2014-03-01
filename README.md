@@ -33,4 +33,9 @@ Thats all.
 User Log
 ========
 
-200 baud is in testing however appears to be working fine, moving to 300
+some baud is in testing however appears to be working fine
+
+100
+200
+400
+?

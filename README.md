@@ -1,3 +1,5 @@
+![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Analogue_modem_-_acoustic_coupler.jpg/800px-Analogue_modem_-_acoustic_coupler.jpg)
+
 tonecode
 ========
 
@@ -20,6 +22,6 @@ To Run
 
 Usage
 -----
-	$ ./demo.x putamessageherebutyouhavetopaditwithpppppppppppppppppppppppppppppppppppppp
-	putamessageherebutyouhavetopaditwithpppppppppppppppppppppppp
+	$ ./demo.x shouldworkwithany100b'/'s
+	shouldworkwithany100b/s
 Thats all.

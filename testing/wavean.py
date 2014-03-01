@@ -1,5 +1,5 @@
 #!/usr/bin/env python2.7
-
+#Just for testing on new faster baud rates limit of fft is close?
 import wave
 import numpy as np
 import matplotlib.pyplot as plt

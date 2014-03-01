@@ -22,6 +22,6 @@ To Run
 
 Usage
 -----
-	$ ./demo.x putamessageherebutyouhavetopaditwithpppppppppppppppppppppppppppppppppppppp
-	putamessageherebutyouhavetopaditwithpppppppppppppppppppppppp
+	$ ./demo.x shouldworkwithany100b'/'s
+	shouldworkwithany100b/s
 Thats all.

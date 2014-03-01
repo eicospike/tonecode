@@ -6,12 +6,11 @@ tonecode
 
 To install run
 
-chmod +x demo.x
+git clone https://github.com/eicospike/tonecode
 
-chmod +x prepare.x
 
-chmod +x wavean2.py
 
 To Run
 
-./demo.x somekindofmessagestringthatspaddedwithpppppppppppppppppppppppppppppppp
+
+./demo.x asdfaafdsafsadfasdfasdfasdfasdfsadfasdfasfasdfasdfasdfasdfasfd

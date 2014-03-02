@@ -1,3 +1,4 @@
+#from 3000 to 6000 only 2 changes, almost ready to automate the capture
 #changes needed in tone detection in wavean2.py
 #changes needed here to process the data for prepare
 

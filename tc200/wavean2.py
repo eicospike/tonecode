@@ -28,7 +28,17 @@ for t in range(0,zz):
         tt = tt + 120
         tt2 = tt2 + 120
         lf = np.fft.rfft(EE)
+        avg = abs(lf[6]) + abs(lf[8])
+        avg = avg / 2 
+
+
         if abs(lf[6]) > 2010000:
                 print 0
         if abs(lf[7]) > 2010000:
                 print 1
+
+#        if (abs(lf[7]) < avg):
+#                 print 0
+#        else:
+#                 print 1
+

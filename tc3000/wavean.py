@@ -14,9 +14,20 @@ npout = TemporaryFile()
 
 #dt=np.dtype('i')
 wr = wave.open('Noise.wav', 'rb')
-sz = 1184100
-da = np.fromstring(wr.readframes(sz), dtype=np.int16)
-left, right = da[0::2], da[1::2]
+
+samp = wr.getsampwidth()
+chan = wr.getnchannels()
+frames = wr.getnframes()
+print wr.getframerate()
+print frames
+print samp
+print chan
+print "hello"
+da = np.fromstring(wr.readframes(frames), dtype=np.int16)
+
+
+
+left, right = da[0::1], da[1::2]
 l = len(left)
 r = len(right)
 x = np.arange(l)
@@ -24,45 +35,35 @@ y = np.arange(r)
 g = len(x)
 h = len(y)
 
-zzz = 8
+zzz = 16
 
 tt = 0
 
 tt2 = zzz
-for t in range(0,20):
+for t in range(0,40):
         EE = left[tt:tt2]
         tt = tt + zzz
         tt2 = tt2 + zzz
-        lf, rf = np.fft.rfft(da), np.fft.rfft(EE)
-        avg = abs(rf[1]) + abs(rf[3])
-        avg = avg / 2
-        if (abs(rf[2]) < avg):
+        rf = np.fft.rfft(EE)
+        if (abs(rf[2]) > 140000):
             print 0
         else:
             print 1
-#        if (abs(rf[2]) > 60000):
-#            print 0
-#        if (abs(rf[1]) > 90000) and (abs(rf[2]) < 60000):
-#            print 1
-#        if (abs(rf[2]) > 60000) or (abs(rf[1]) < abs(rf[2])):
+#        avg = abs(rf[1]) + abs(rf[3])
+#        print avg
+#        avg = int(avg)/2
+#        print avg
+#        print "over"
+#        print abs(rf[2])
+#        if (abs(rf[2]) < avg):
 #            print 0
 #        else:
 #            print 1
-#         if (abs(rf[1]) < abs(rf[2])) or 
 
-
-#print x,da
-#print g,h,lf
 
 plt.figure(1)
-#a = plt.subplot(411)
-#r = 2**16
-#a.set_ylim([-32200, -32210])
-#a.set_xlabel('time [s]')
-#a.set_ylabel('sample value [-]')
-#plt.plot(y, left)
 
-xstart = 5
+xstart = 1
 tt = 0
 tt2 = zzz
 start = zzz * xstart

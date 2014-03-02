@@ -26,19 +26,19 @@ h = len(y)
 
 
 
-zzz = 12
+zzz = 16
 
 tt = 0
 
 tt2 = zzz
-for t in range(0,19):
+for t in range(0,7):
         EE = left[tt:tt2]
         tt = tt + zzz
         tt2 = tt2 + zzz
         lf, rf = np.fft.rfft(da), np.fft.rfft(EE)
-        if abs(rf[2]) > 130000:
+        if abs(rf[2]) > 110000:
             print 0
-        if abs(rf[1]) > 150000:
+        if abs(rf[1]) > 100000:
             print 1
         
 #print x,da

@@ -20,7 +20,7 @@ g = len(x)
 z = sys.argv[1]
 zz = int(z)
 zz = zz * 10
-zzz = 12
+zzz = 16
 t = 0
 tt = 0
 tt2 = zzz
@@ -29,7 +29,7 @@ for t in range(0,zz):
         tt = tt + zzz
         tt2 = tt2 + zzz
         lf = np.fft.rfft(EE)
-        if abs(lf[2]) > 130000:
+        if abs(lf[2]) > 110000:
                 print 0
-        if abs(lf[1]) > 150000:
+        if abs(lf[1]) > 100000:
                 print 1

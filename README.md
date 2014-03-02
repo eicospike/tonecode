@@ -28,6 +28,21 @@ Thats all.
 
 
 
+Performance
+-----------
+.Time length tested of each different bit rate
+[align="right",float="left",width="30%"]
+|=======================================
+|bit per S  | tested distance
+|       100 |         1 second
+|       200 |         1 second
+|       400 |         1 second
+|       800 |         1 second         
+|      1600 |         1 second  
+|      3000 |         1 second
+|      6000 |         1 second     
+|     12000 |         1 second   
+|=======================================
 
 
 User Log

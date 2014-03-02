@@ -18,6 +18,32 @@ To Run
 ./demo.x asdfaafdsafsadfasdfasdfasdfasdfsadfasdfasfasdfasdfasdfasdfasfd
 
 
+<table>
+    <tr>
+        <td>800</td>
+        <td>Bar</td>
+    </tr>
+    <tr>
+        <td>1600</td>
+        <td>Bar</td>
+    </tr>
+    <tr>
+        <td>3000</td>
+        <td>Bar</td>
+    </tr>
+    <tr>
+        <td>6000</td>
+        <td>Bar</td>
+    </tr>    
+    <tr>
+        <td>12000</td>
+        <td>Bar</td>
+    </tr>
+    
+    
+</table>
+
+
 
 
 Usage

@@ -27,8 +27,7 @@ Usage
 Thats all.
 
 
-
-Performance
+Testing
 -----------
 .Time length tested of each different bit rate
 [align="right",float="left",width="30%"]

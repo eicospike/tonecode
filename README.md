@@ -22,7 +22,7 @@ To Run
 
 Usage
 -----
-	$ ./demo.x shouldworkwithany100b'/'s
+	$ ./demo.x shouldworkwithanyfortheb'/'softhedirectory
 	shouldworkwithany100b/s
 Thats all.
 
@@ -33,12 +33,9 @@ Thats all.
 User Log
 ========
 
-some baud is in testing however appears to be working fine
+TODO:force auto detection of bitrate, prob just look for single peak fft....
 
-100
-200
-400
-?
+some baud is in testing however appears to be working fine
 
 Up to 12k bps and transmiting 100% from the minimal testing I have done. Bumping the rate to
 24k bps seams to be imposible to make a decent fft of that little data. Possibly look at pulling

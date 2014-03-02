@@ -39,3 +39,9 @@ some baud is in testing however appears to be working fine
 200
 400
 ?
+
+
+
+3000 is in testing and looks like it will be working.... this is getting close to the limit
+of the fft. and samplerate of the wave.
+

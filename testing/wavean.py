@@ -35,17 +35,17 @@ y = np.arange(r)
 g = len(x)
 h = len(y)
 
-zzz = 16
+zzz = 4
 
 tt = 0
 
-tt2 = zzz
+tt2 = zzz + 1
 for t in range(0,40):
         EE = left[tt:tt2]
         tt = tt + zzz
         tt2 = tt2 + zzz
         rf = np.fft.rfft(EE)
-        if (abs(rf[2]) > 140000):
+        if (abs(rf[2]) > abs(rf[1])):
             print 0
         else:
             print 1
@@ -63,7 +63,7 @@ for t in range(0,40):
 
 plt.figure(1)
 
-xstart = 1
+xstart = 0
 tt = 0
 tt2 = zzz
 start = zzz * xstart

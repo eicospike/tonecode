@@ -40,8 +40,11 @@ some baud is in testing however appears to be working fine
 400
 ?
 
+Up to 12k bps and transmiting 100% from the minimal testing I have done. Bumping the rate to
+24k bps seams to be imposible to make a decent fft of that little data. Possibly look at pulling
+the bits from the raw sound file. Further testing with 48k bps at 48Hz sampled sound would equate
+to on sample per data point, clearly an fft can't be used. Looking like 56k will take some NEW tech :)
 
-
-3000 is in testing and looks like it will be working.... this is getting close to the limit
+...3000 is in testing and looks like it will be working.... this is getting close to the limit
 of the fft. and samplerate of the wave.
 

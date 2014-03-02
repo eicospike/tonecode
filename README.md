@@ -17,27 +17,64 @@ To Run
 
 ./demo.x asdfaafdsafsadfasdfasdfasdfasdfsadfasdfasfasdfasdfasdfasdfasfd
 
+Testing
+=====================
 
 <table>
     <tr>
+        <td>100</td>
+        <td>Bar</td>
+        <td>1sec</td>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Bar</td>
+        <td>1sec</td>
+    </tr>
+    <tr>
+        <td>400</td>
+        <td>Bar</td>
+        <td>1sec</td>
+    </tr>
+    <tr>
         <td>800</td>
         <td>Bar</td>
+        <td>1sec</td>
+    </tr>
+    <tr>
+        <td>1200</td>
+        <td>Bar</td>
+        <td>1sec</td>
     </tr>
     <tr>
         <td>1600</td>
         <td>Bar</td>
+        <td>1sec</td>
     </tr>
     <tr>
         <td>3000</td>
         <td>Bar</td>
+        <td>1sec</td>
     </tr>
     <tr>
         <td>6000</td>
         <td>Bar</td>
+        <td>1sec</td>
     </tr>    
     <tr>
         <td>12000</td>
         <td>Bar</td>
+        <td>1sec</td>
+    </tr>
+    <tr>
+        <td>24000</td>
+        <td>testing</td>
+        <td>0sec</td>
+    </tr>
+    <tr>
+        <td>48000</td>
+        <td>pretest</td>
+        <td>0sec</td>
     </tr>
     
     
@@ -51,23 +88,6 @@ Usage
 	$ ./demo.x shouldworkwithanyfortheb'/'softhedirectory
 	shouldworkwithany100b/s
 Thats all.
-
-
-Testing
------------
-.Time length tested of each different bit rate
-[align="right",float="left",width="30%"]
-|=======================================
-|bit per S  | tested distance
-|       100 |         1 second
-|       200 |         1 second
-|       400 |         1 second
-|       800 |         1 second         
-|      1600 |         1 second  
-|      3000 |         1 second
-|      6000 |         1 second     
-|     12000 |         1 second   
-|=======================================
 
 
 User Log

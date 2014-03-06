@@ -92,7 +92,7 @@ Thats all.
 
 User Log
 ========
-
+UPDATE: Gorillacode is attempting to overtake this however tonecode can still be pushed further.
 TODO:force auto detection of bitrate, prob just look for single peak fft....
 
 some baud is in testing however appears to be working fine
